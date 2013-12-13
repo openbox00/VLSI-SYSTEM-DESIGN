@@ -1,0 +1,24 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.sun4v.08.10.nc
+-RUNMODE
+alu.v
+mux5to1_select.v
+register.v
+buffer.v
+sign_extend.v
+controller.v
+tb_top_controller_module.v
+imm_reg_select.v
+top_controller_module.v
+mux2to1_select.v
+-CDSLIB
+./INCA_libs/irun.sun4v.08.10.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.sun4v.08.10.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-ALLOWUNBOUND

@@ -1,0 +1,64 @@
+C:/Users/100/Desktop/IPmode/tb.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/IPmode/tb.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module cpu_tb
+
+Top level modules:
+	cpu_tb
+
+} {} {}} C:/Users/100/Desktop/IPmode/IDEX.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/IPmode/IDEX.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module IDEX
+
+Top level modules:
+	IDEX
+
+} {} {}} C:/Users/100/Desktop/IPmode/ipdecoder.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/IPmode/ipdecoder.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module ipdecoder
+
+Top level modules:
+	ipdecoder
+
+} {} {}} C:/Users/100/Desktop/IPmode/data_mem.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/IPmode/data_mem.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module DATA_MEM
+
+Top level modules:
+	DATA_MEM
+
+} {} {}} C:/Users/100/Desktop/IPmode/inst_mem.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/IPmode/inst_mem.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module INST_MEM
+
+Top level modules:
+	INST_MEM
+
+} {} {}} C:/Users/100/Desktop/IPmode/EXMEM.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/IPmode/EXMEM.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module EXMEM
+
+Top level modules:
+	EXMEM
+
+} {} {}} C:/Users/100/Desktop/IPmode/CPU.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/IPmode/CPU.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} C:/Users/100/Desktop/IPmode/MEMWB.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/IPmode/MEMWB.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module MEMWB
+
+Top level modules:
+	MEMWB
+
+} {} {}} C:/Users/100/Desktop/IPmode/IFID.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/IPmode/IFID.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module IFID
+
+Top level modules:
+	IFID
+
+} {} {}}

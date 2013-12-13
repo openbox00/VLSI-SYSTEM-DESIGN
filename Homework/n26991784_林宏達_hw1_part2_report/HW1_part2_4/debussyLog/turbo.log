@@ -1,0 +1,133 @@
+Command Line: /usr/cad/spring_soft/verdi/cur/platform/SOL7/bin/Verdi -licverdi
+uname(SunOS vlsicad1 5.10 Generic_141444-09 sun4u)
+License: Failed to check out Debussy, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  5229@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out Debussy, version 6.100, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out Debussy, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  1717@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out Debussy, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  26585@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out nTrace, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nTrace
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  5229@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out nTrace, version 6.100, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out nTrace, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nTrace
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  1717@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out nTrace, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nTrace
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  26585@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out Debussy, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  5229@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out Debussy, version 6.100, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out Debussy, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  1717@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out Debussy, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  26585@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out Debussy_shared, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  5229@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out Debussy_shared, version 6.100, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out Debussy_shared, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  1717@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out Debussy_shared, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  26585@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+License: Failed to check out Verdi, version 6.100, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Verdi
+License: 	Vendor:Host:   lsncku3
+License: 	License path:  5229@lsncku3
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.globetrotter.com".
+hbReload time 0 0.42307 0.6806 delta 118408 114688 total 18156440 25608192
+au time 1388 16.337521 2.708311 delta 36683696 36462592 total 37388288 37273600

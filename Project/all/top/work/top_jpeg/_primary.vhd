@@ -1,0 +1,45 @@
+library verilog;
+use verilog.vl_types.all;
+entity top_jpeg is
+    port(
+        clock           : in     vl_logic;
+        reset           : in     vl_logic;
+        dct_valid       : out    vl_logic;
+        dct_ready       : out    vl_logic;
+        dct_cnt         : out    vl_logic_vector(3 downto 0);
+        QT_valid        : out    vl_logic;
+        ZZ_valid        : out    vl_logic;
+        data_select     : in     vl_logic_vector(1 downto 0);
+        enable_dct      : in     vl_logic;
+        enable_QT       : in     vl_logic;
+        total_finish    : out    vl_logic;
+        final_enable    : out    vl_logic;
+        busy            : out    vl_logic;
+        frame_count     : out    vl_logic_vector(11 downto 0);
+        jpg_en          : out    vl_logic;
+        jpg_out         : out    vl_logic_vector(31 downto 0);
+        entropy_cycle   : out    vl_logic_vector(14 downto 0);
+        co_cycle        : out    vl_logic_vector(14 downto 0);
+        in_data         : in     vl_logic_vector(23 downto 0);
+        bufaddr_in      : in     vl_logic_vector(18 downto 0);
+        bufaddr_out     : in     vl_logic_vector(18 downto 0);
+        dct_out0        : out    vl_logic_vector(11 downto 0);
+        dct_out1        : out    vl_logic_vector(11 downto 0);
+        dct_out2        : out    vl_logic_vector(11 downto 0);
+        dct_out3        : out    vl_logic_vector(11 downto 0);
+        dct_out4        : out    vl_logic_vector(11 downto 0);
+        dct_out5        : out    vl_logic_vector(11 downto 0);
+        dct_out6        : out    vl_logic_vector(11 downto 0);
+        dct_out7        : out    vl_logic_vector(11 downto 0);
+        qt_out0         : out    vl_logic_vector(7 downto 0);
+        qt_out1         : out    vl_logic_vector(7 downto 0);
+        qt_out2         : out    vl_logic_vector(7 downto 0);
+        qt_out3         : out    vl_logic_vector(7 downto 0);
+        qt_out4         : out    vl_logic_vector(7 downto 0);
+        qt_out5         : out    vl_logic_vector(7 downto 0);
+        qt_out6         : out    vl_logic_vector(7 downto 0);
+        qt_out7         : out    vl_logic_vector(7 downto 0);
+        zzout           : out    vl_logic_vector(7 downto 0);
+        jpegout         : out    vl_logic_vector(31 downto 0)
+    );
+end top_jpeg;

@@ -1,0 +1,154 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech_6.5d\examples
+T_opt
+Z1 V9iUN:kcaAk[lROd?ZeUX=3
+Z2 04 6 4 work cpu_tb fast 0
+Z3 =12-00ff0d09f3da-4d3042a7-23c-fcc
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5d;42
+vCPU
+Z7 Ibij>24g>a`XDR0:GE3=mE0
+Z8 V4>doX_lSHJbC_fN9f@RFA2
+Z9 dC:\Users\100\Desktop\IPmode
+Z10 w1295006434
+Z11 8C:/Users/100/Desktop/IPmode/CPU.v
+Z12 FC:/Users/100/Desktop/IPmode/CPU.v
+L0 23
+Z13 OE;L;6.5d;42
+r1
+31
+Z14 !s102 -nocovercells
+Z15 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z16 n@c@p@u
+Z17 !s100 a=YZUHHP9PBP2B=>XP:QC2
+!s85 0
+vcpu_tb
+Z18 IROd3aYNzIZ2jB4Y]eoP2i2
+Z19 V0P>[JOo>6KEkgKO=1CbUG0
+R9
+Z20 w1295008007
+Z21 8C:/Users/100/Desktop/IPmode/tb.v
+Z22 FC:/Users/100/Desktop/IPmode/tb.v
+L0 5
+R13
+r1
+31
+R14
+R15
+Z23 !s100 i6hfScnJE7d<hzm_`DPzg0
+!s85 0
+vDATA_MEM
+Z24 IZg:BkcK4`P@DabQ7IZRLU0
+Z25 VAZR]V5WCWUPg]XH9oG=7<1
+R9
+Z26 w1295008405
+Z27 8C:/Users/100/Desktop/IPmode/data_mem.v
+Z28 FC:/Users/100/Desktop/IPmode/data_mem.v
+L0 23
+R13
+r1
+31
+R14
+R15
+Z29 n@d@a@t@a_@m@e@m
+Z30 !s100 >RI@IN7aS2lYO7Uf]UzZO0
+!s85 0
+vEXMEM
+Z31 IG5FW^:GokMH25<jfodzU41
+Z32 V788chP:o`2h?7iG>`2R>L2
+R9
+Z33 w1295004582
+Z34 8C:/Users/100/Desktop/IPmode/EXMEM.v
+Z35 FC:/Users/100/Desktop/IPmode/EXMEM.v
+L0 22
+R13
+r1
+31
+R14
+R15
+Z36 n@e@x@m@e@m
+Z37 !s100 B5;zS3cl@>h;:=Pf1<UUo3
+!s85 0
+vIDEX
+Z38 I>Ph_E_NmM]iB7TPllk`dg2
+Z39 VQ4mlFaIFaFkGDBGVh56z30
+R9
+Z40 w1295004560
+Z41 8C:/Users/100/Desktop/IPmode/IDEX.v
+Z42 FC:/Users/100/Desktop/IPmode/IDEX.v
+L0 22
+R13
+r1
+31
+R14
+R15
+Z43 n@i@d@e@x
+Z44 !s100 zBWiK[elio>I2O:HDEmd:3
+!s85 0
+vIFID
+Z45 IT89?cTjXm33Q]`ZjmIKDM2
+Z46 V8GK=jSRnjeiOJKc73dz]I0
+R9
+Z47 w1295003383
+Z48 8C:/Users/100/Desktop/IPmode/IFID.v
+Z49 FC:/Users/100/Desktop/IPmode/IFID.v
+L0 22
+R13
+r1
+31
+R14
+R15
+Z50 n@i@f@i@d
+Z51 !s100 ondmM92=6A[I4BbiVf8eR1
+!s85 0
+vINST_MEM
+Z52 I^4zCX^P3n=U6eHTFJKE<O1
+Z53 V[`LML_9PB1kLDiBJQamGH0
+R9
+Z54 w1295005555
+Z55 8C:/Users/100/Desktop/IPmode/inst_mem.v
+Z56 FC:/Users/100/Desktop/IPmode/inst_mem.v
+L0 23
+R13
+r1
+31
+R14
+R15
+Z57 n@i@n@s@t_@m@e@m
+Z58 !s100 7d4CDF^Y6:]2I^MB^l_>13
+!s85 0
+vipdecoder
+Z59 InGRIHoHdV_TlWX^bCc9E41
+Z60 VYJ]BFhJ6`jWEkj[[z^]ni0
+R9
+Z61 w1295005779
+Z62 8C:/Users/100/Desktop/IPmode/ipdecoder.v
+Z63 FC:/Users/100/Desktop/IPmode/ipdecoder.v
+L0 28
+R13
+r1
+31
+R14
+R15
+Z64 !s100 2G@VR1RZ9oTCQ^knOaM6J0
+!s85 0
+vMEMWB
+Z65 IYFj6]4N?;4mI_5Xo]B0`30
+Z66 V=^KC_HZFSFO7VWg]BVa;53
+R9
+Z67 w1295003425
+Z68 8C:/Users/100/Desktop/IPmode/MEMWB.v
+Z69 FC:/Users/100/Desktop/IPmode/MEMWB.v
+L0 22
+R13
+r1
+31
+R14
+R15
+Z70 n@m@e@m@w@b
+Z71 !s100 GM2@?cMfjae5L]H?Mdo@g3
+!s85 0

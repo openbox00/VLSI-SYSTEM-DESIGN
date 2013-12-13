@@ -1,0 +1,8 @@
+C:/Users/100/Desktop/wrapper/wrapper.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/wrapper/wrapper.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module wrapper
+
+Top level modules:
+	wrapper
+
+} {} {}}

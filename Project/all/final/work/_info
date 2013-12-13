@@ -1,0 +1,241 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\100\Desktop\top
+T_opt
+Z1 Vh>:`ziY_c]L8b6<LZaX632
+Z2 04 6 4 work cpu_tb fast 0
+Z3 =11-00ff0d09f3da-4d35b245-377-7b94
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5d;42
+T_opt1
+V4?Q8^SFJKLkfBBZfGekCc1
+R2
+Z7 =17-00ff0d09f3da-4d368543-1c3-908c
+R4
+Z8 n@_opt1
+R6
+vALU
+Z9 IG??TdReJjCSIWmJ304EkN3
+Z10 V_>kmBgZN@LCe8WhOK;3aB3
+Z11 dC:\Users\100\Desktop\pre-sim
+Z12 w1295362615
+Z13 8C:/Users/100/Desktop/pre-sim/alu.v
+Z14 FC:/Users/100/Desktop/pre-sim/alu.v
+L0 3
+Z15 OE;L;6.5d;42
+r1
+31
+Z16 !s102 -nocovercells
+Z17 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z18 n@a@l@u
+Z19 !s100 T<ddJ=_MMdnHT58YVUeJA2
+!s85 0
+vCONTROLLER
+Z20 IR=:GPE00O4L`e`h^@ce;c1
+Z21 VXS>SFZYV5K]gJ9[Ln]a`61
+R11
+Z22 w1295412117
+Z23 8C:/Users/100/Desktop/pre-sim/controller.v
+Z24 FC:/Users/100/Desktop/pre-sim/controller.v
+L0 36
+R15
+r1
+31
+R16
+R17
+Z25 n@c@o@n@t@r@o@l@l@e@r
+Z26 !s100 h6b?Z6YeFkPiK`KT?VKSK2
+!s85 0
+vCPU
+Z27 IeK2OZ[;Ob0?b<dz;S:5bG1
+Z28 V4>doX_lSHJbC_fN9f@RFA2
+R11
+Z29 w1295418680
+Z30 8C:/Users/100/Desktop/pre-sim/CPU.v
+Z31 FC:/Users/100/Desktop/pre-sim/CPU.v
+L0 4
+R15
+r1
+31
+R16
+R17
+Z32 n@c@p@u
+Z33 !s100 4L^WU[_X8Ah`2ZeT0S:H10
+!s85 0
+vcpu_tb
+Z34 IUXAFSEN0@NHR>NfzOJ?_B0
+Z35 V0P>[JOo>6KEkgKO=1CbUG0
+R11
+Z36 w1295414023
+Z37 8C:/Users/100/Desktop/pre-sim/tb.v
+Z38 FC:/Users/100/Desktop/pre-sim/tb.v
+L0 5
+R15
+r1
+31
+R16
+R17
+Z39 !s100 A77RE_0f@OdoB]]5FOSi;1
+!s85 0
+vDATA_MEM
+Z40 ITS8XTmHAH62<AgDXlKOnn2
+Z41 V3Vl`F=I_kHnz]6JO9o6Xh1
+R11
+Z42 w1295366826
+Z43 8C:/Users/100/Desktop/pre-sim/data_mem.v
+Z44 FC:/Users/100/Desktop/pre-sim/data_mem.v
+L0 3
+R15
+r1
+31
+R16
+R17
+Z45 n@d@a@t@a_@m@e@m
+Z46 !s100 =a1P?F^XJTho2:Pg6PzD]2
+!s85 0
+vdetection
+Z47 IZl09FXbn>LH9c`ToI91H_0
+Z48 Vd>?HhVdb]A>WoAm;M_=n53
+R11
+Z49 w1292901100
+Z50 8C:/Users/100/Desktop/pre-sim/hazarddectection.v
+Z51 FC:/Users/100/Desktop/pre-sim/hazarddectection.v
+L0 4
+R15
+r1
+31
+R16
+R17
+Z52 !s100 XW2?J^4:5b8H`68n[g;0G0
+!s85 0
+vEXMEM
+Z53 IGzMoIz_PF0T1E8G67R8[X1
+Z54 V0XD@DMdVk3mFjnBBE:<5m2
+R11
+Z55 w1292905897
+Z56 8C:/Users/100/Desktop/pre-sim/EXMEM.v
+Z57 FC:/Users/100/Desktop/pre-sim/EXMEM.v
+L0 3
+R15
+r1
+31
+R16
+R17
+Z58 n@e@x@m@e@m
+Z59 !s100 3CMkFW5oT58WDkIJfza=V0
+!s85 0
+vEXTENSION
+Z60 I^je2mB07AFYFJH=]fgSEH1
+Z61 V;U@?;;PMYc=M8S2?8=9F[3
+R11
+Z62 w1295406674
+Z63 8C:/Users/100/Desktop/pre-sim/extension.v
+Z64 FC:/Users/100/Desktop/pre-sim/extension.v
+L0 3
+R15
+r1
+31
+R16
+R17
+Z65 n@e@x@t@e@n@s@i@o@n
+Z66 !s100 6io0E0_JnPeES6m1LRU^f0
+!s85 0
+vForward
+Z67 I_5fi`L08o:ePACajY8:1[1
+Z68 V7FKhEdFo]A_QIX78XQkN02
+R11
+Z69 w1293126816
+Z70 8C:/Users/100/Desktop/pre-sim/Forwardingunit.v
+Z71 FC:/Users/100/Desktop/pre-sim/Forwardingunit.v
+L0 4
+R15
+r1
+31
+R16
+R17
+Z72 n@forward
+Z73 !s100 EMb:8O<b^<8>g3XjLiMB>0
+!s85 0
+vIDEX
+Z74 IJaKCBGnI]FJo?DT@0c4El2
+Z75 Vj`jLOJgSjbf]SdmzTf1F83
+R11
+R55
+Z76 8C:/Users/100/Desktop/pre-sim/IDEX.v
+Z77 FC:/Users/100/Desktop/pre-sim/IDEX.v
+L0 3
+R15
+r1
+31
+R16
+R17
+Z78 n@i@d@e@x
+Z79 !s100 i_l>ihFDQM@zLaCcAmAIl3
+!s85 0
+vIFID
+Z80 ILFRQL4<<bTdX]8c^jmG<e3
+Z81 V>e;VS7HYmeEn3;6ENjUZ;0
+R11
+Z82 w1295412604
+Z83 8C:/Users/100/Desktop/pre-sim/IFID.v
+Z84 FC:/Users/100/Desktop/pre-sim/IFID.v
+L0 3
+R15
+r1
+31
+R16
+R17
+Z85 n@i@f@i@d
+Z86 !s100 efG0[i9RXD14Zn2=TePGc1
+!s85 0
+vINST_MEM
+Z87 IGZ:CbUhnzhU5oYTbSU`Z=3
+Z88 VD8QQZgI1@kU4IJAgmS2OH3
+R11
+Z89 w1295364639
+Z90 8C:/Users/100/Desktop/pre-sim/inst_mem.v
+Z91 FC:/Users/100/Desktop/pre-sim/inst_mem.v
+L0 3
+R15
+r1
+31
+R16
+R17
+Z92 n@i@n@s@t_@m@e@m
+Z93 !s100 N`PhR4?H1d[zRRn?UN8m80
+!s85 0
+vMEMWB
+Z94 IP>Ng4:94=`D@[3RcS]6VK3
+Z95 VgceY3UgR4[E^4?YLjnzKF1
+R11
+R55
+Z96 8C:/Users/100/Desktop/pre-sim/MEMWB.v
+Z97 FC:/Users/100/Desktop/pre-sim/MEMWB.v
+L0 3
+R15
+r1
+31
+R16
+R17
+Z98 n@m@e@m@w@b
+Z99 !s100 ZDI>c<1403UenH0S5Sg1h3
+!s85 0
+vREGISTER_FILE
+Z100 II<<mBn`6G]]B@hZBbnKWW0
+Z101 V_7X]ecm8<SImnl=jDa1O;0
+R11
+Z102 w1293127177
+Z103 8C:/Users/100/Desktop/pre-sim/reg_file.v
+Z104 FC:/Users/100/Desktop/pre-sim/reg_file.v
+L0 3
+R15
+r1
+31
+R16
+R17
+Z105 n@r@e@g@i@s@t@e@r_@f@i@l@e
+Z106 !s100 2_gzXD>_JY1FU@P5U>zTU0
+!s85 0

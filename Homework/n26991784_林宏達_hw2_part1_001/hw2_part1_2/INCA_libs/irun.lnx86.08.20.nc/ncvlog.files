@@ -1,0 +1,12 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+/home/jackylee/others/hw2_part1_2/alu.v
+/home/jackylee/others/hw2_part1_2/controller.v
+/home/jackylee/others/hw2_part1_2/data_mem.v
+/home/jackylee/others/hw2_part1_2/extension.v
+/home/jackylee/others/hw2_part1_2/inst_mem.v
+/home/jackylee/others/hw2_part1_2/reg_file.v
+/home/jackylee/others/hw2_part1_2/cpu.v
+/home/jackylee/others/hw2_part1_2/tb.v

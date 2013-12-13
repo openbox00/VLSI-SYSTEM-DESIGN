@@ -1,0 +1,42 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\modeltech_6.5d\examples
+T_opt
+Z1 VnoX?;[VBNPZNJCm0i00Sh0
+Z2 04 5 4 work t_alu fast 0
+Z3 =1-0015f2ec4f81-4cb461b0-50-4694
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OE;O;6.5d;42
+valu
+Z7 IggW:RT2ZE0eZ8WIe4oILV1
+Z8 VZCo]Mg3CPjETV`KhJS7N=3
+Z9 dC:\Users\100\Desktop\alu
+Z10 w1286889626
+Z11 8C:/Users/100/Desktop/alu/ALU.v
+Z12 FC:/Users/100/Desktop/alu/ALU.v
+L0 12
+Z13 OE;L;6.5d;42
+r1
+31
+Z14 !s102 -nocovercells
+Z15 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z16 !s100 VlQ^XX^Jz;WUYR[YF@man3
+!s85 0
+vt_alu
+Z17 IHP^4[VH1nUmXZm>J`njVS2
+Z18 VHNeBTMDlm8Pl5g@;6Q:zI1
+R9
+Z19 w1286889894
+Z20 8C:/Users/100/Desktop/alu/tb_alu.v
+Z21 FC:/Users/100/Desktop/alu/tb_alu.v
+L0 2
+R13
+r1
+31
+R14
+R15
+Z22 !s100 YjzBl[3Q2HP3a2Pdn9KAn1
+!s85 0

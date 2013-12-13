@@ -1,0 +1,19 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
++access+r
+-noshowtop
+-ACCESS
++r
+-MESSAGES
+-XLMODE
+./INCA_libs/irun.sun4v.08.10.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/irun.sun4v.08.10.nc/cds.lib
+-HDLVAR
+./INCA_libs/irun.sun4v.08.10.nc/hdl.var
+-work
+worklib
+-HASXLMODE

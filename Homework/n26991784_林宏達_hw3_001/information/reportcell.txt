@@ -1,0 +1,799 @@
+****************************************
+Report : cell
+Design : CPU
+Version: Z-2007.03-SP3
+Date   : Sat Dec 25 16:29:21 2010
+****************************************
+
+Attributes:
+   BO - reference allows boundary optimization
+    b - black box (unknown)
+    h - hierarchical
+    n - noncombinational
+    r - removable
+   so - sizing only
+    u - contains unmapped logic
+
+Cell                      Reference       Library             Area  Attributes
+--------------------------------------------------------------------------------
+U27                       AND2X2          fast            13.305600 so
+U28                       AND2X2          fast            13.305600 so
+U29                       OR2X2           fast            13.305600 so
+U30                       AND2X2          fast            13.305600 so
+U31                       AND2X2          fast            13.305600 so
+U32                       OR2X2           fast            13.305600 so
+U33                       AND2X2          fast            13.305600 so
+U34                       AND2X2          fast            13.305600 so
+U35                       OR2X2           fast            13.305600 so
+U36                       AND2X2          fast            13.305600 so
+U37                       AND2X2          fast            13.305600 so
+U38                       OR2X2           fast            13.305600 so
+U39                       AND2X2          fast            13.305600 so
+U40                       AND2X2          fast            13.305600 so
+U41                       OR2X2           fast            13.305600 so
+U42                       AND2X2          fast            13.305600 so
+U43                       AND2X2          fast            13.305600 so
+U44                       OR2X2           fast            13.305600 so
+U45                       AND2X2          fast            13.305600 so
+U46                       AND2X2          fast            13.305600 so
+U47                       OR2X2           fast            13.305600 so
+U48                       AND2X2          fast            13.305600 so
+U49                       AND2X2          fast            13.305600 so
+U50                       OR2X2           fast            13.305600 so
+U51                       AND2X2          fast            13.305600 so
+U52                       AND2X2          fast            13.305600 so
+U53                       OR2X2           fast            13.305600 so
+U54                       AND2X2          fast            13.305600 so
+U55                       AND2X2          fast            13.305600 so
+U56                       OR2X2           fast            13.305600 so
+U57                       AND2X2          fast            13.305600 so
+U58                       AND2X2          fast            13.305600 so
+U59                       OR2X2           fast            13.305600 so
+U60                       AND2X2          fast            13.305600 so
+U61                       AND2X2          fast            13.305600 so
+U62                       OR2X2           fast            13.305600 so
+U63                       AND2X2          fast            13.305600 so
+U64                       AND2X2          fast            13.305600 so
+U65                       OR2X2           fast            13.305600 so
+U66                       AND2X2          fast            13.305600 so
+U67                       AND2X2          fast            13.305600 so
+U68                       OR2X2           fast            13.305600 so
+U69                       AND2X2          fast            13.305600 so
+U70                       AND2X2          fast            13.305600 so
+U71                       OR2X2           fast            13.305600 so
+U72                       AND2X2          fast            13.305600 so
+U73                       AND2X2          fast            13.305600 so
+U74                       OR2X2           fast            13.305600 so
+U75                       AND2X2          fast            13.305600 so
+U76                       AND2X2          fast            13.305600 so
+U77                       OR2X2           fast            13.305600 so
+U78                       AND2X2          fast            13.305600 so
+U79                       AND2X2          fast            13.305600 so
+U80                       OR2X2           fast            13.305600 so
+U81                       AND2X2          fast            13.305600 so
+U82                       AND2X2          fast            13.305600 so
+U83                       OR2X2           fast            13.305600 so
+U84                       AND2X2          fast            13.305600 so
+U85                       AND2X2          fast            13.305600 so
+U86                       OR2X2           fast            13.305600 so
+U87                       AND2X2          fast            13.305600 so
+U88                       AND2X2          fast            13.305600 so
+U89                       OR2X2           fast            13.305600 so
+U90                       AND2X2          fast            13.305600 so
+U91                       AND2X2          fast            13.305600 so
+U92                       OR2X2           fast            13.305600 so
+U93                       AND2X2          fast            13.305600 so
+U94                       AND2X2          fast            13.305600 so
+U95                       OR2X2           fast            13.305600 so
+U96                       AND2X2          fast            13.305600 so
+U97                       AND2X2          fast            13.305600 so
+U98                       OR2X2           fast            13.305600 so
+U99                       AND2X2          fast            13.305600 so
+U100                      AND2X2          fast            13.305600 so
+U101                      OR2X2           fast            13.305600 so
+U102                      AND2X2          fast            13.305600 so
+U103                      AND2X2          fast            13.305600 so
+U104                      OR2X2           fast            13.305600 so
+U105                      AND2X2          fast            13.305600 so
+U106                      AND2X2          fast            13.305600 so
+U107                      OR2X2           fast            13.305600 so
+U108                      AND2X2          fast            13.305600 so
+U109                      AND2X2          fast            13.305600 so
+U110                      OR2X2           fast            13.305600 so
+U111                      AND2X2          fast            13.305600 so
+U112                      AND2X2          fast            13.305600 so
+U113                      OR2X2           fast            13.305600 so
+U114                      AND2X2          fast            13.305600 so
+U115                      AND2X2          fast            13.305600 so
+U116                      OR2X2           fast            13.305600 so
+U117                      AND2X2          fast            13.305600 so
+U118                      AND2X2          fast            13.305600 so
+U119                      OR2X2           fast            13.305600 so
+U120                      AND2X2          fast            13.305600 so
+U121                      AND2X2          fast            13.305600 so
+U122                      OR2X2           fast            13.305600 so
+U652                      AND2X2          fast            13.305600 
+U653                      NOR2X1          fast            9.979200  
+U654                      NOR2X1          fast            9.979200  
+U655                      NAND2X1         fast            9.979200  
+U656                      NAND2X1         fast            9.979200  
+U657                      INVX1           fast            6.652800  
+U658                      INVX1           fast            6.652800  
+U659                      INVX1           fast            6.652800  
+U660                      INVX1           fast            6.652800  
+U661                      INVX1           fast            6.652800  
+U662                      INVX1           fast            6.652800  
+U663                      INVX1           fast            6.652800  
+U664                      INVX1           fast            6.652800  
+U665                      INVX1           fast            6.652800  
+U666                      INVX1           fast            6.652800  
+U667                      INVX1           fast            6.652800  
+U668                      INVX1           fast            6.652800  
+U669                      INVX1           fast            6.652800  
+U670                      INVX1           fast            6.652800  
+U671                      INVX1           fast            6.652800  
+U672                      INVX1           fast            6.652800  
+U673                      INVX1           fast            6.652800  
+U674                      INVX1           fast            6.652800  
+U675                      INVX1           fast            6.652800  
+U676                      INVX1           fast            6.652800  
+U677                      INVX1           fast            6.652800  
+U678                      INVX1           fast            6.652800  
+U679                      INVX1           fast            6.652800  
+U680                      NOR2X1          fast            9.979200  
+U681                      INVX1           fast            6.652800  
+U682                      INVX1           fast            6.652800  
+U683                      NOR2X1          fast            9.979200  
+U684                      INVX1           fast            6.652800  
+U685                      NOR2X1          fast            9.979200  
+U686                      NOR2X1          fast            9.979200  
+U687                      NOR2X1          fast            9.979200  
+U688                      NOR2X1          fast            9.979200  
+U689                      BUFX3           fast            13.305600 
+U690                      BUFX3           fast            13.305600 
+U691                      INVX1           fast            6.652800  
+U692                      INVX1           fast            6.652800  
+U693                      INVX1           fast            6.652800  
+U694                      INVX1           fast            6.652800  
+U695                      INVX1           fast            6.652800  
+U696                      INVX1           fast            6.652800  
+U697                      INVX1           fast            6.652800  
+U698                      INVX1           fast            6.652800  
+U699                      INVX1           fast            6.652800  
+U700                      INVX1           fast            6.652800  
+U701                      INVX1           fast            6.652800  
+U702                      INVX1           fast            6.652800  
+U703                      INVX1           fast            6.652800  
+U704                      INVX1           fast            6.652800  
+U705                      INVX1           fast            6.652800  
+U706                      INVX1           fast            6.652800  
+U707                      INVX1           fast            6.652800  
+U708                      INVX1           fast            6.652800  
+U709                      INVX1           fast            6.652800  
+U710                      INVX1           fast            6.652800  
+U711                      INVX1           fast            6.652800  
+U712                      INVX1           fast            6.652800  
+U713                      INVX1           fast            6.652800  
+U714                      INVX1           fast            6.652800  
+U715                      INVX1           fast            6.652800  
+U716                      INVX1           fast            6.652800  
+U717                      INVX1           fast            6.652800  
+U718                      INVX1           fast            6.652800  
+U719                      INVX1           fast            6.652800  
+U720                      INVX1           fast            6.652800  
+U721                      INVX1           fast            6.652800  
+U722                      INVX1           fast            6.652800  
+U723                      INVX1           fast            6.652800  
+U724                      INVX1           fast            6.652800  
+U725                      INVX1           fast            6.652800  
+U726                      INVX1           fast            6.652800  
+U727                      INVX1           fast            6.652800  
+U728                      INVX1           fast            6.652800  
+U729                      INVX1           fast            6.652800  
+U730                      INVX1           fast            6.652800  
+U731                      INVX1           fast            6.652800  
+U732                      INVX1           fast            6.652800  
+U733                      INVX1           fast            6.652800  
+U734                      INVX1           fast            6.652800  
+U735                      INVX1           fast            6.652800  
+U736                      BUFX3           fast            13.305600 
+U737                      BUFX3           fast            13.305600 
+U738                      NOR2BX1         fast            13.305600 
+U739                      NOR2BX1         fast            13.305600 
+U740                      NOR2BX1         fast            13.305600 
+U741                      NOR2BX1         fast            13.305600 
+U742                      AOI21X1         fast            13.305600 
+U743                      NAND3BX1        fast            16.632000 
+U744                      BUFX3           fast            13.305600 
+U745                      NAND2BX1        fast            13.305600 
+U746                      NAND2BX1        fast            13.305600 
+U747                      XNOR2X1         fast            26.611200 
+U748                      BUFX3           fast            13.305600 
+U749                      NAND3BX1        fast            16.632000 
+U750                      XNOR2X1         fast            26.611200 
+U751                      INVX1           fast            6.652800  
+U752                      INVX1           fast            6.652800  
+U753                      INVX1           fast            6.652800  
+U754                      INVX1           fast            6.652800  
+U755                      BUFX3           fast            13.305600 
+U756                      NAND3BX1        fast            16.632000 
+U757                      BUFX3           fast            13.305600 
+U758                      NAND3BX1        fast            16.632000 
+U759                      INVX1           fast            6.652800  
+U760                      AOI32X1         fast            23.284800 
+U761                      INVX1           fast            6.652800  
+U762                      INVX1           fast            6.652800  
+U763                      INVX1           fast            6.652800  
+U764                      INVX1           fast            6.652800  
+U765                      INVX1           fast            6.652800  
+U766                      INVX1           fast            6.652800  
+U767                      INVX1           fast            6.652800  
+U768                      INVX1           fast            6.652800  
+U769                      INVX1           fast            6.652800  
+U770                      INVX1           fast            6.652800  
+U771                      INVX1           fast            6.652800  
+U772                      INVX1           fast            6.652800  
+U773                      INVX1           fast            6.652800  
+U774                      INVX1           fast            6.652800  
+U775                      INVX1           fast            6.652800  
+U776                      INVX1           fast            6.652800  
+U777                      INVX1           fast            6.652800  
+U778                      INVX1           fast            6.652800  
+U779                      INVX1           fast            6.652800  
+U780                      INVX1           fast            6.652800  
+U781                      INVX1           fast            6.652800  
+U782                      INVX1           fast            6.652800  
+U783                      INVX1           fast            6.652800  
+U784                      INVX1           fast            6.652800  
+U785                      INVX1           fast            6.652800  
+U786                      INVX1           fast            6.652800  
+U787                      INVX1           fast            6.652800  
+U788                      INVX1           fast            6.652800  
+U789                      INVX1           fast            6.652800  
+U790                      INVX1           fast            6.652800  
+U791                      INVX1           fast            6.652800  
+U792                      OAI32X1         fast            23.284800 
+U793                      OAI32X1         fast            23.284800 
+U794                      OAI32X1         fast            23.284800 
+U795                      INVX1           fast            6.652800  
+U796                      BUFX3           fast            13.305600 
+U797                      BUFX3           fast            13.305600 
+U798                      INVX1           fast            6.652800  
+U799                      NOR2BX1         fast            13.305600 
+U800                      NOR2BX1         fast            13.305600 
+U801                      NOR2BX1         fast            13.305600 
+U802                      NOR2BX1         fast            13.305600 
+U803                      BUFX3           fast            13.305600 
+U804                      INVX1           fast            6.652800  
+U805                      OAI221XL        fast            23.284800 
+U806                      AOI22X1         fast            16.632000 
+U807                      OAI221XL        fast            23.284800 
+U808                      AOI22X1         fast            16.632000 
+U809                      OAI221XL        fast            23.284800 
+U810                      AOI22X1         fast            16.632000 
+U811                      OAI221XL        fast            23.284800 
+U812                      AOI22X1         fast            16.632000 
+U813                      AOI22X1         fast            16.632000 
+U814                      AOI22X1         fast            16.632000 
+U815                      AOI22X1         fast            16.632000 
+U816                      AOI22X1         fast            16.632000 
+U817                      AOI22X1         fast            16.632000 
+U818                      AOI22X1         fast            16.632000 
+U819                      AOI22X1         fast            16.632000 
+U820                      AOI22X1         fast            16.632000 
+U821                      AOI22X1         fast            16.632000 
+U822                      OAI221XL        fast            23.284800 
+U823                      AOI22X1         fast            16.632000 
+U824                      OAI221XL        fast            23.284800 
+U825                      AOI22X1         fast            16.632000 
+U826                      OAI221XL        fast            23.284800 
+U827                      AOI22X1         fast            16.632000 
+U828                      OAI221XL        fast            23.284800 
+U829                      AOI22X1         fast            16.632000 
+U830                      OAI221XL        fast            23.284800 
+U831                      AOI22X1         fast            16.632000 
+U832                      OAI221XL        fast            23.284800 
+U833                      AOI22X1         fast            16.632000 
+U834                      OAI221XL        fast            23.284800 
+U835                      AOI22X1         fast            16.632000 
+U836                      OAI221XL        fast            23.284800 
+U837                      AOI22X1         fast            16.632000 
+U838                      OAI221XL        fast            23.284800 
+U839                      AOI22X1         fast            16.632000 
+U840                      OAI221XL        fast            23.284800 
+U841                      AOI22X1         fast            16.632000 
+U842                      OAI221XL        fast            23.284800 
+U843                      AOI22X1         fast            16.632000 
+U844                      OAI221XL        fast            23.284800 
+U845                      AOI22X1         fast            16.632000 
+U846                      OAI221XL        fast            23.284800 
+U847                      AOI22X1         fast            16.632000 
+U848                      OAI221XL        fast            23.284800 
+U849                      AOI22X1         fast            16.632000 
+U850                      OAI221XL        fast            23.284800 
+U851                      AOI22X1         fast            16.632000 
+U852                      OAI221XL        fast            23.284800 
+U853                      AOI22X1         fast            16.632000 
+U854                      OAI221XL        fast            23.284800 
+U855                      AOI22X1         fast            16.632000 
+U856                      OAI221XL        fast            23.284800 
+U857                      AOI22X1         fast            16.632000 
+U858                      OAI221XL        fast            23.284800 
+U859                      AOI22X1         fast            16.632000 
+U860                      OAI221XL        fast            23.284800 
+U861                      AOI22X1         fast            16.632000 
+U862                      OAI221XL        fast            23.284800 
+U863                      AOI22X1         fast            16.632000 
+U864                      OAI221XL        fast            23.284800 
+U865                      AOI22X1         fast            16.632000 
+U866                      OAI2BB1X1       fast            16.632000 
+U867                      AOI22X1         fast            16.632000 
+U868                      OAI2BB1X1       fast            16.632000 
+U869                      AOI22X1         fast            16.632000 
+U870                      INVX1           fast            6.652800  
+U871                      OAI2BB1X1       fast            16.632000 
+U872                      AOI22X1         fast            16.632000 
+U873                      OAI2BB1X1       fast            16.632000 
+U874                      AOI22X1         fast            16.632000 
+U875                      OAI221XL        fast            23.284800 
+U876                      AOI22X1         fast            16.632000 
+U877                      OAI221XL        fast            23.284800 
+U878                      AOI22X1         fast            16.632000 
+U879                      OAI221XL        fast            23.284800 
+U880                      AOI22X1         fast            16.632000 
+U881                      OAI221XL        fast            23.284800 
+U882                      AOI22X1         fast            16.632000 
+U883                      INVX1           fast            6.652800  
+U884                      INVX1           fast            6.652800  
+U885                      INVX1           fast            6.652800  
+U886                      OAI221XL        fast            23.284800 
+U887                      NAND2X1         fast            9.979200  
+U888                      OAI221XL        fast            23.284800 
+U889                      NAND2X1         fast            9.979200  
+U890                      OAI221XL        fast            23.284800 
+U891                      NAND2X1         fast            9.979200  
+U892                      OAI221XL        fast            23.284800 
+U893                      NAND2X1         fast            9.979200  
+U894                      OAI221XL        fast            23.284800 
+U895                      NAND2X1         fast            9.979200  
+U896                      OAI221XL        fast            23.284800 
+U897                      NAND2X1         fast            9.979200  
+U898                      OAI221XL        fast            23.284800 
+U899                      NAND2X1         fast            9.979200  
+U900                      OAI221XL        fast            23.284800 
+U901                      NAND2X1         fast            9.979200  
+U902                      OAI221XL        fast            23.284800 
+U903                      NAND2X1         fast            9.979200  
+U904                      OAI221XL        fast            23.284800 
+U905                      AOI22X1         fast            16.632000 
+U906                      OAI2BB1X1       fast            16.632000 
+U907                      AOI22X1         fast            16.632000 
+U908                      OAI221XL        fast            23.284800 
+U909                      NAND2X1         fast            9.979200  
+U910                      OAI221XL        fast            23.284800 
+U911                      AOI22X1         fast            16.632000 
+U912                      OAI2BB1X1       fast            16.632000 
+U913                      AOI22X1         fast            16.632000 
+U914                      OAI2BB1X1       fast            16.632000 
+U915                      AOI22X1         fast            16.632000 
+U916                      OAI2BB1X1       fast            16.632000 
+U917                      AOI22X1         fast            16.632000 
+U918                      OAI2BB1X1       fast            16.632000 
+U919                      AOI22X1         fast            16.632000 
+U920                      OAI2BB1X1       fast            16.632000 
+U921                      AOI22X1         fast            16.632000 
+U922                      OAI2BB1X1       fast            16.632000 
+U923                      AOI22X1         fast            16.632000 
+U924                      OAI2BB1X1       fast            16.632000 
+U925                      AOI22X1         fast            16.632000 
+U926                      OAI2BB1X1       fast            16.632000 
+U927                      AOI22X1         fast            16.632000 
+U928                      OAI2BB1X1       fast            16.632000 
+U929                      AOI22X1         fast            16.632000 
+U930                      OAI2BB1X1       fast            16.632000 
+U931                      AOI22X1         fast            16.632000 
+U932                      OAI2BB1X1       fast            16.632000 
+U933                      AOI22X1         fast            16.632000 
+U934                      OAI2BB1X1       fast            16.632000 
+U935                      AOI22X1         fast            16.632000 
+U936                      OAI2BB1X1       fast            16.632000 
+U937                      AOI22X1         fast            16.632000 
+U938                      OAI2BB1X1       fast            16.632000 
+U939                      AOI22X1         fast            16.632000 
+U940                      OAI2BB1X1       fast            16.632000 
+U941                      AOI22X1         fast            16.632000 
+U942                      OAI2BB1X1       fast            16.632000 
+U943                      AOI22X1         fast            16.632000 
+U944                      OAI2BB1X1       fast            16.632000 
+U945                      AOI22X1         fast            16.632000 
+U946                      OAI2BB1X1       fast            16.632000 
+U947                      AOI22X1         fast            16.632000 
+U948                      OAI2BB1X1       fast            16.632000 
+U949                      AOI22X1         fast            16.632000 
+U950                      OAI2BB1X1       fast            16.632000 
+U951                      AOI22X1         fast            16.632000 
+U952                      OAI2BB1X1       fast            16.632000 
+U953                      AOI22X1         fast            16.632000 
+U954                      OAI2BB1X1       fast            16.632000 
+U955                      AOI22X1         fast            16.632000 
+U956                      OAI2BB1X1       fast            16.632000 
+U957                      AOI22X1         fast            16.632000 
+U958                      OAI2BB1X1       fast            16.632000 
+U959                      AOI22X1         fast            16.632000 
+U960                      OAI2BB1X1       fast            16.632000 
+U961                      AOI22X1         fast            16.632000 
+U962                      OAI2BB1X1       fast            16.632000 
+U963                      AOI22X1         fast            16.632000 
+U964                      OAI2BB1X1       fast            16.632000 
+U965                      AOI22X1         fast            16.632000 
+U966                      OAI221XL        fast            23.284800 
+U967                      AOI22X1         fast            16.632000 
+U968                      INVX1           fast            6.652800  
+U969                      INVX1           fast            6.652800  
+U970                      INVX1           fast            6.652800  
+U971                      OAI221XL        fast            23.284800 
+U972                      AOI22X1         fast            16.632000 
+U973                      OAI221XL        fast            23.284800 
+U974                      AOI22X1         fast            16.632000 
+U975                      OAI221XL        fast            23.284800 
+U976                      AOI22X1         fast            16.632000 
+U977                      OAI221XL        fast            23.284800 
+U978                      AOI22X1         fast            16.632000 
+U979                      OAI221XL        fast            23.284800 
+U980                      AOI22X1         fast            16.632000 
+U981                      OAI221XL        fast            23.284800 
+U982                      AOI22X1         fast            16.632000 
+U983                      OAI221XL        fast            23.284800 
+U984                      AOI22X1         fast            16.632000 
+U985                      OAI221XL        fast            23.284800 
+U986                      AOI22X1         fast            16.632000 
+U987                      OAI221XL        fast            23.284800 
+U988                      AOI22X1         fast            16.632000 
+U989                      OAI221XL        fast            23.284800 
+U990                      AOI22X1         fast            16.632000 
+U991                      OAI221XL        fast            23.284800 
+U992                      AOI22X1         fast            16.632000 
+U993                      OAI221XL        fast            23.284800 
+U994                      AOI22X1         fast            16.632000 
+U995                      OAI221XL        fast            23.284800 
+U996                      AOI22X1         fast            16.632000 
+U997                      OAI221XL        fast            23.284800 
+U998                      AOI22X1         fast            16.632000 
+U999                      OAI221XL        fast            23.284800 
+U1000                     AOI22X1         fast            16.632000 
+U1001                     OAI221XL        fast            23.284800 
+U1002                     AOI22X1         fast            16.632000 
+U1003                     OAI221XL        fast            23.284800 
+U1004                     NAND2X1         fast            9.979200  
+U1005                     OAI221XL        fast            23.284800 
+U1006                     AOI22X1         fast            16.632000 
+U1007                     AOI22X1         fast            16.632000 
+U1008                     AOI22X1         fast            16.632000 
+U1009                     AOI22X1         fast            16.632000 
+U1010                     AOI22X1         fast            16.632000 
+U1011                     AOI22X1         fast            16.632000 
+U1012                     AOI22X1         fast            16.632000 
+U1013                     AOI22X1         fast            16.632000 
+U1014                     AOI22X1         fast            16.632000 
+U1015                     AOI22X1         fast            16.632000 
+U1016                     AOI22X1         fast            16.632000 
+U1017                     AOI22X1         fast            16.632000 
+U1018                     AOI22X1         fast            16.632000 
+U1019                     AOI22X1         fast            16.632000 
+U1020                     AOI22X1         fast            16.632000 
+U1021                     AOI22X1         fast            16.632000 
+U1022                     AOI22X1         fast            16.632000 
+U1023                     AOI22X1         fast            16.632000 
+U1024                     AOI22X1         fast            16.632000 
+U1025                     AOI22X1         fast            16.632000 
+U1026                     AOI22X1         fast            16.632000 
+U1027                     AOI22X1         fast            16.632000 
+U1028                     AOI22X1         fast            16.632000 
+U1029                     OAI221XL        fast            23.284800 
+U1030                     AOI22X1         fast            16.632000 
+U1031                     OAI221XL        fast            23.284800 
+U1032                     AOI22X1         fast            16.632000 
+U1033                     OAI221XL        fast            23.284800 
+U1034                     AOI22X1         fast            16.632000 
+U1035                     OAI221XL        fast            23.284800 
+U1036                     AOI22X1         fast            16.632000 
+U1037                     OAI221XL        fast            23.284800 
+U1038                     AOI22X1         fast            16.632000 
+U1039                     OAI221XL        fast            23.284800 
+U1040                     AOI22X1         fast            16.632000 
+U1041                     OAI221XL        fast            23.284800 
+U1042                     AOI22X1         fast            16.632000 
+U1043                     OAI221XL        fast            23.284800 
+U1044                     AOI22X1         fast            16.632000 
+U1045                     OAI221XL        fast            23.284800 
+U1046                     AOI22X1         fast            16.632000 
+U1047                     OAI221XL        fast            23.284800 
+U1048                     AOI22X1         fast            16.632000 
+U1049                     OAI221XL        fast            23.284800 
+U1050                     AOI22X1         fast            16.632000 
+U1051                     OAI221XL        fast            23.284800 
+U1052                     AOI22X1         fast            16.632000 
+U1053                     OAI221XL        fast            23.284800 
+U1054                     AOI22X1         fast            16.632000 
+U1055                     OAI221XL        fast            23.284800 
+U1056                     AOI22X1         fast            16.632000 
+U1057                     OAI221XL        fast            23.284800 
+U1058                     AOI22X1         fast            16.632000 
+U1059                     OAI221XL        fast            23.284800 
+U1060                     AOI22X1         fast            16.632000 
+U1061                     OAI221XL        fast            23.284800 
+U1062                     AOI22X1         fast            16.632000 
+U1063                     OAI221XL        fast            23.284800 
+U1064                     AOI22X1         fast            16.632000 
+U1065                     OAI221XL        fast            23.284800 
+U1066                     AOI22X1         fast            16.632000 
+U1067                     OAI221XL        fast            23.284800 
+U1068                     AOI22X1         fast            16.632000 
+U1069                     OAI221XL        fast            23.284800 
+U1070                     AOI22X1         fast            16.632000 
+U1071                     OAI221XL        fast            23.284800 
+U1072                     AOI22X1         fast            16.632000 
+U1073                     OAI221XL        fast            23.284800 
+U1074                     AOI22X1         fast            16.632000 
+U1075                     OAI221XL        fast            23.284800 
+U1076                     AOI22X1         fast            16.632000 
+U1077                     OAI221XL        fast            23.284800 
+U1078                     AOI22X1         fast            16.632000 
+U1079                     OAI221XL        fast            23.284800 
+U1080                     AOI22X1         fast            16.632000 
+U1081                     OAI221XL        fast            23.284800 
+U1082                     AOI22X1         fast            16.632000 
+U1083                     OAI221XL        fast            23.284800 
+U1084                     AOI22X1         fast            16.632000 
+U1085                     OAI221XL        fast            23.284800 
+U1086                     AOI22X1         fast            16.632000 
+U1087                     OAI221XL        fast            23.284800 
+U1088                     AOI22X1         fast            16.632000 
+U1089                     OAI221XL        fast            23.284800 
+U1090                     AOI22X1         fast            16.632000 
+U1091                     OAI221XL        fast            23.284800 
+U1092                     AOI22X1         fast            16.632000 
+U1093                     OAI221XL        fast            23.284800 
+U1094                     AOI22X1         fast            16.632000 
+U1095                     OAI221XL        fast            23.284800 
+U1096                     AOI22X1         fast            16.632000 
+U1097                     OAI221XL        fast            23.284800 
+U1098                     AOI22X1         fast            16.632000 
+U1099                     OAI221XL        fast            23.284800 
+U1100                     AOI22X1         fast            16.632000 
+U1101                     OAI221XL        fast            23.284800 
+U1102                     AOI22X1         fast            16.632000 
+U1103                     OAI221XL        fast            23.284800 
+U1104                     AOI22X1         fast            16.632000 
+U1105                     OAI221XL        fast            23.284800 
+U1106                     AOI22X1         fast            16.632000 
+U1107                     OAI221XL        fast            23.284800 
+U1108                     AOI22X1         fast            16.632000 
+U1109                     OAI221XL        fast            23.284800 
+U1110                     AOI22X1         fast            16.632000 
+U1111                     OAI2BB2X1       fast            23.284800 
+U1112                     OAI2BB2X1       fast            23.284800 
+U1113                     OAI2BB2X1       fast            23.284800 
+U1114                     OAI2BB2X1       fast            23.284800 
+U1115                     OAI2BB2X1       fast            23.284800 
+U1116                     OAI2BB2X1       fast            23.284800 
+U1117                     OAI2BB2X1       fast            23.284800 
+U1118                     OAI2BB2X1       fast            23.284800 
+U1119                     OAI221XL        fast            23.284800 
+U1120                     AOI22X1         fast            16.632000 
+U1121                     OAI221XL        fast            23.284800 
+U1122                     AOI22X1         fast            16.632000 
+U1123                     OAI221XL        fast            23.284800 
+U1124                     AOI22X1         fast            16.632000 
+U1125                     OAI221XL        fast            23.284800 
+U1126                     AOI22X1         fast            16.632000 
+U1127                     OAI221XL        fast            23.284800 
+U1128                     AOI22X1         fast            16.632000 
+U1129                     INVX1           fast            6.652800  
+U1130                     INVX1           fast            6.652800  
+U1131                     INVX1           fast            6.652800  
+U1132                     INVX1           fast            6.652800  
+U1133                     INVX1           fast            6.652800  
+U1134                     INVX1           fast            6.652800  
+U1135                     INVX1           fast            6.652800  
+U1136                     INVX1           fast            6.652800  
+U1137                     INVX1           fast            6.652800  
+U1138                     INVX1           fast            6.652800  
+U1139                     INVX1           fast            6.652800  
+U1140                     INVX1           fast            6.652800  
+U1141                     OAI221XL        fast            23.284800 
+U1142                     NAND2X1         fast            9.979200  
+U1143                     OAI221XL        fast            23.284800 
+U1144                     NAND2X1         fast            9.979200  
+U1145                     OAI221XL        fast            23.284800 
+U1146                     NAND2X1         fast            9.979200  
+U1147                     OAI221XL        fast            23.284800 
+U1148                     NAND2X1         fast            9.979200  
+U1149                     OAI221XL        fast            23.284800 
+U1150                     NAND2X1         fast            9.979200  
+U1151                     OAI221XL        fast            23.284800 
+U1152                     NAND2X1         fast            9.979200  
+U1153                     OAI221XL        fast            23.284800 
+U1154                     NAND2X1         fast            9.979200  
+U1155                     OAI221XL        fast            23.284800 
+U1156                     NAND2X1         fast            9.979200  
+U1157                     OAI221XL        fast            23.284800 
+U1158                     NAND2X1         fast            9.979200  
+U1159                     OAI221XL        fast            23.284800 
+U1160                     NAND2X1         fast            9.979200  
+U1161                     OAI221XL        fast            23.284800 
+U1162                     NAND2X1         fast            9.979200  
+U1163                     AOI22X1         fast            16.632000 
+U1164                     OAI2BB2X1       fast            23.284800 
+U1165                     OAI2BB2X1       fast            23.284800 
+U1166                     OAI2BB2X1       fast            23.284800 
+U1167                     OAI2BB2X1       fast            23.284800 
+U1168                     OAI2BB2X1       fast            23.284800 
+U1169                     OAI2BB2X1       fast            23.284800 
+U1170                     OAI2BB2X1       fast            23.284800 
+U1171                     OAI2BB2X1       fast            23.284800 
+U1172                     OAI2BB2X1       fast            23.284800 
+U1173                     OAI2BB2X1       fast            23.284800 
+U1174                     OAI2BB2X1       fast            23.284800 
+U1175                     OAI2BB2X1       fast            23.284800 
+U1176                     OAI2BB2X1       fast            23.284800 
+U1177                     OAI2BB2X1       fast            23.284800 
+U1178                     OAI2BB2X1       fast            23.284800 
+U1179                     OAI2BB2X1       fast            23.284800 
+U1180                     OAI2BB2X1       fast            23.284800 
+U1181                     OAI2BB2X1       fast            23.284800 
+U1182                     OAI2BB2X1       fast            23.284800 
+U1183                     OAI2BB2X1       fast            23.284800 
+U1184                     OAI2BB2X1       fast            23.284800 
+U1185                     OAI2BB2X1       fast            23.284800 
+U1186                     OAI2BB2X1       fast            23.284800 
+U1187                     OAI2BB2X1       fast            23.284800 
+U1188                     OAI221XL        fast            23.284800 
+U1189                     NAND2X1         fast            9.979200  
+U1190                     INVX1           fast            6.652800  
+U1191                     INVX1           fast            6.652800  
+U1192                     INVX1           fast            6.652800  
+U1193                     INVX1           fast            6.652800  
+U1194                     INVX1           fast            6.652800  
+U1195                     INVX1           fast            6.652800  
+U1196                     INVX1           fast            6.652800  
+U1197                     INVX1           fast            6.652800  
+U1198                     INVX1           fast            6.652800  
+U1199                     INVX1           fast            6.652800  
+U1200                     INVX1           fast            6.652800  
+U1201                     INVX1           fast            6.652800  
+U1202                     INVX1           fast            6.652800  
+U1203                     INVX1           fast            6.652800  
+U1204                     INVX1           fast            6.652800  
+U1205                     INVX1           fast            6.652800  
+U1206                     INVX1           fast            6.652800  
+U1207                     OAI221XL        fast            23.284800 
+U1208                     NAND2X1         fast            9.979200  
+U1209                     OAI221XL        fast            23.284800 
+U1210                     NAND2X1         fast            9.979200  
+U1211                     OAI221XL        fast            23.284800 
+U1212                     NAND2X1         fast            9.979200  
+U1213                     OAI221XL        fast            23.284800 
+U1214                     NAND2X1         fast            9.979200  
+U1215                     OAI221XL        fast            23.284800 
+U1216                     NAND2X1         fast            9.979200  
+U1217                     OAI221XL        fast            23.284800 
+U1218                     NAND2X1         fast            9.979200  
+U1219                     OAI221XL        fast            23.284800 
+U1220                     NAND2X1         fast            9.979200  
+U1221                     OAI221XL        fast            23.284800 
+U1222                     NAND2X1         fast            9.979200  
+U1223                     OAI221XL        fast            23.284800 
+U1224                     NAND2X1         fast            9.979200  
+U1225                     INVX1           fast            6.652800  
+U1226                     INVX1           fast            6.652800  
+U1227                     INVX1           fast            6.652800  
+U1228                     INVX1           fast            6.652800  
+U1229                     INVX1           fast            6.652800  
+U1230                     INVX1           fast            6.652800  
+U1231                     INVX1           fast            6.652800  
+U1232                     INVX1           fast            6.652800  
+U1233                     INVX1           fast            6.652800  
+U1234                     OAI2BB2X1       fast            23.284800 
+U1235                     OAI2BB2X1       fast            23.284800 
+U1236                     OAI2BB2X1       fast            23.284800 
+U1237                     OAI2BB2X1       fast            23.284800 
+U1238                     OAI2BB2X1       fast            23.284800 
+U1239                     OAI2BB2X1       fast            23.284800 
+U1240                     OAI2BB2X1       fast            23.284800 
+U1241                     OAI2BB2X1       fast            23.284800 
+U1242                     OAI2BB2X1       fast            23.284800 
+U1243                     OAI2BB2X1       fast            23.284800 
+U1244                     OAI2BB2X1       fast            23.284800 
+U1245                     OAI2BB2X1       fast            23.284800 
+U1246                     OAI2BB2X1       fast            23.284800 
+U1247                     OAI2BB2X1       fast            23.284800 
+U1248                     OAI2BB2X1       fast            23.284800 
+U1249                     OAI2BB2X1       fast            23.284800 
+U1250                     OAI2BB2X1       fast            23.284800 
+U1251                     OAI2BB2X1       fast            23.284800 
+U1252                     OAI2BB2X1       fast            23.284800 
+U1253                     OAI2BB2X1       fast            23.284800 
+U1254                     OAI2BB2X1       fast            23.284800 
+U1255                     OAI2BB2X1       fast            23.284800 
+U1256                     OAI2BB2X1       fast            23.284800 
+U1257                     OAI2BB2X1       fast            23.284800 
+U1258                     OAI2BB2X1       fast            23.284800 
+U1259                     OAI2BB2X1       fast            23.284800 
+U1260                     OAI2BB2X1       fast            23.284800 
+U1261                     OAI2BB2X1       fast            23.284800 
+U1262                     OAI2BB2X1       fast            23.284800 
+U1263                     OAI2BB2X1       fast            23.284800 
+U1264                     OAI2BB2X1       fast            23.284800 
+U1265                     OAI2BB2X1       fast            23.284800 
+U1266                     NOR2BX1         fast            13.305600 
+U1267                     NOR2BX1         fast            13.305600 
+U1268                     INVX1           fast            6.652800  
+U1269                     INVX1           fast            6.652800  
+U1270                     INVX1           fast            6.652800  
+U1271                     INVX1           fast            6.652800  
+U1272                     INVX1           fast            6.652800  
+U1273                     INVX1           fast            6.652800  
+U1274                     INVX1           fast            6.652800  
+add_215                   CPU_DW01_add_1                  1150.934414
+                                                                    BO, h
+add_216                   CPU_DW01_add_0                  2195.424018
+                                                                    BO, h
+alu                       ALU                             25573.363348
+                                                                    h
+ctrl                      CONTROLLER                      708.523209
+                                                                    h
+data_mem                  DATA_MEM                        0.000000  b
+detect                    detection                       332.640004
+                                                                    h
+eq_218                    CPU_DW01_cmp6_0                 1061.121614
+                                                                    BO, h
+exmem                     EXMEM                           5099.371246
+                                                                    h, n
+ext                       EXTENSION                       911.433602
+                                                                    h
+forwarding                Forward                         2122.243230
+                                                                    h
+idex                      IDEX                            12992.918518
+                                                                    h, n
+ifid                      IFID                            6010.804845
+                                                                    h, n
+inst_mem                  INST_MEM                        0.000000  b
+memwb                     MEMWB                           4959.662445
+                                                                    h, n
+next_pc_reg[0]            DFFRHQX1        fast            69.854401 n
+next_pc_reg[1]            DFFRHQX1        fast            69.854401 n
+next_pc_reg[2]            DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[3]            DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[4]            DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[5]            DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[6]            DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[7]            DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[8]            DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[9]            DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[10]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[11]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[12]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[13]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[14]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[15]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[16]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[17]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[18]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[19]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[20]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[21]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[22]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[23]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[24]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[25]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[26]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[27]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[28]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[29]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[30]           DFFRHQX1        fast            69.854401 n, so
+next_pc_reg[31]           DFFRHQX1        fast            69.854401 n, so
+reg_file                  REGISTER_FILE                   164902.953778
+                                                                    h, n
+--------------------------------------------------------------------------------
+Total 766 cells                                           241240.515625

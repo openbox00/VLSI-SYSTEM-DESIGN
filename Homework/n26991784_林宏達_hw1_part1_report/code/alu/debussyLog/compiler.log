@@ -1,0 +1,151 @@
+*design* DebussyLib (btIdent 2006.04v1)
+Command arguments:
+    +define+verilog
+    /home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v
+    /home/user1/vsd10f/vsd10f23/n26991784/alu/tb_alu.v
+
+
+*Error* usage of ANSI-style port declaration is only supported if option -2001 specified
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 14: 
+
+*Error* usage of ANSI-style port declaration is only supported if option -2001 specified
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 15: 
+
+*Error* usage of @* is only supported if option -2001 specified
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 26: 
+
+*Error* port alu_result not input, output or inout
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 12: 
+
+*Error* port alu_overflow not input, output or inout
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 12: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 28: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 29: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 36: 
+
+*Warning* partselect to scalar
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 36: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 37: 
+
+*Warning* bit select in scalar
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 37: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 38: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 41: 
+
+*Warning* partselect to scalar
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 41: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 42: 
+
+*Warning* bit select in scalar
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 42: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 43: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 46: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 47: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 50: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 51: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 54: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 55: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 58: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 59: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 62: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 63: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 67: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 68: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 71: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 72: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 75: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 76: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 80: 
+
+*Warning* partselect to scalar
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 80: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 81: 
+
+*Warning* bit select in scalar
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 81: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 82: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 85: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 86: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 89: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 90: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 93: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 94: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 99: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/ALU.v", 100: 
+Highest level modules:
+t_alu
+
+
+*Warning* port sizes differ (1 vs 32) in port connection (port 1)
+"/home/user1/vsd10f/vsd10f23/n26991784/alu/tb_alu.v", 14: 
+Total	40 error(s),   7 warning(s)

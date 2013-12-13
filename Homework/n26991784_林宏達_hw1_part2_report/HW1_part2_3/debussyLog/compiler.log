@@ -1,0 +1,223 @@
+*design* DebussyLib (btIdent 2006.04v1)
+Command arguments:
+    +define+verilog
+    /home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v
+    /home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/imm_reg_select.v
+    /home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux2to1_select.v
+    /home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux5to1_select.v
+    /home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/register.v
+    /home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/sign_extend.v
+    /home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/tb_top_module.v
+    /home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/top_module.v
+
+
+*Error* usage of ANSI-style port declaration is only supported if option -2001 specified
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 13: 
+
+*Error* usage of ANSI-style port declaration is only supported if option -2001 specified
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 14: 
+
+*Error* port alu_result not input, output or inout
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 11: 
+
+*Error* port alu_overflow not input, output or inout
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 11: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 29: 
+
+*Warning* partselect to scalar
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 29: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 30: 
+
+*Warning* bit select in scalar
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 30: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 31: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 34: 
+
+*Warning* partselect to scalar
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 34: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 35: 
+
+*Warning* bit select in scalar
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 35: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 36: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 39: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 40: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 43: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 44: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 47: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 48: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 51: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 52: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 55: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 56: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 60: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 61: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 65: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 66: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 70: 
+
+*Warning* partselect to scalar
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 70: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 71: 
+
+*Warning* bit select in scalar
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 71: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 72: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 75: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 76: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 79: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 80: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 84: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 85: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 90: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/alu.v", 91: 
+
+*Error* usage of ANSI-style port declaration is only supported if option -2001 specified
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/imm_reg_select.v", 4: 
+
+*Error* port src2 not input, output or inout
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/imm_reg_select.v", 3: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/imm_reg_select.v", 12: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/imm_reg_select.v", 16: 
+
+*Error* usage of ANSI-style port declaration is only supported if option -2001 specified
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux2to1_select.v", 4: 
+
+*Error* port write_data not input, output or inout
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux2to1_select.v", 3: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux2to1_select.v", 12: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux2to1_select.v", 16: 
+
+*Error* usage of ANSI-style port declaration is only supported if option -2001 specified
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux5to1_select.v", 4: 
+
+*Error* port mux5to1_result not input, output or inout
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux5to1_select.v", 3: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux5to1_select.v", 12: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux5to1_select.v", 15: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux5to1_select.v", 18: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux5to1_select.v", 21: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/mux5to1_select.v", 24: 
+
+*Error* usage of ANSI-style port declaration is only supported if option -2001 specified
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/register.v", 7: 
+
+*Error* usage of ANSI-style port declaration is only supported if option -2001 specified
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/register.v", 8: 
+
+*Error* usage of i is only supported if option -2001 specified
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/register.v", 17: 
+
+*Error* port read_data1 not input, output or inout
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/register.v", 3: 
+
+*Error* port read_data2 not input, output or inout
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/register.v", 3: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/register.v", 26: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/register.v", 27: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/register.v", 33: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/register.v", 34: 
+
+*Error* usage of ANSI-style port declaration is only supported if option -2001 specified
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/sign_extend.v", 4: 
+
+*Error* port sign_out not input, output or inout
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/sign_extend.v", 3: 
+
+*Error* illegal LHS in procedural assignment
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/sign_extend.v", 9: 
+Highest level modules:
+tb_top_module
+
+
+*Warning* port sizes differ (1 vs 20) in port connection (port 1)
+"/home/user1/vsd10f/vsd10f23/n26991784_hw1_part2/HW1_part2_3/top_module.v", 35: 
+Total	62 error(s),   7 warning(s)

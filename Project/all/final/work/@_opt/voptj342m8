@@ -1,0 +1,25 @@
+library verilog;
+use verilog.vl_types.all;
+entity CONTROLLER is
+    port(
+        reg_ena         : out    vl_logic;
+        funct           : out    vl_logic_vector(3 downto 0);
+        ls_w_mode       : out    vl_logic;
+        sign_ena        : out    vl_logic;
+        sel_in2         : out    vl_logic;
+        ena_data        : out    vl_logic;
+        data_rw         : out    vl_logic;
+        sel_wb          : out    vl_logic;
+        reg_rw          : out    vl_logic;
+        sel             : out    vl_logic_vector(3 downto 0);
+        opcode          : in     vl_logic_vector(5 downto 0);
+        subopcode       : in     vl_logic_vector(4 downto 0);
+        read_data1      : in     vl_logic_vector(31 downto 0);
+        read_data2      : in     vl_logic_vector(31 downto 0);
+        clk             : in     vl_logic;
+        rst             : in     vl_logic;
+        sel_alu         : out    vl_logic;
+        branch_ena      : out    vl_logic;
+        Jump_ena        : out    vl_logic
+    );
+end CONTROLLER;

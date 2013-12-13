@@ -1,0 +1,10 @@
+C:/Users/100/Desktop/RCA/rca.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/RCA/rca.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module Add_4bitRCA
+-- Compiling module Add_full
+-- Compiling module Add_half
+
+Top level modules:
+	Add_4bitRCA
+
+} {} {}}

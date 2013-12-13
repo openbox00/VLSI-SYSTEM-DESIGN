@@ -1,0 +1,121 @@
+# Current time Tue Jan 18 23:31:19 2011
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.5d"
+# Version = "2009.11"
+# Date = "Nov 18 2009"
+# Platform = win32
+# 0    0x007e7d56: '<unknown (@0x7e7d56)>'
+# 1    0x007e3f4e: '<unknown (@0x7e3f4e)>'
+# 2    0x007f2b55: '<unknown (@0x7f2b55)>'
+# 3    0x0067f07b: '<unknown (@0x67f07b)>'
+# 4    0x00680f6f: '<unknown (@0x680f6f)>'
+# 5    0x00681709: '<unknown (@0x681709)>'
+# 6    0x006829fd: '<unknown (@0x6829fd)>'
+# 7    0x00684a20: '<unknown (@0x684a20)>'
+# 8    0x1000d52b: 'TclEvalObjvInternal + 0x24b' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 9    0x1002cad7: 'TclCompEvalObj + 0x637' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 10   0x1002c590: 'TclCompEvalObj + 0xf0' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 11   0x1002cc5b: 'TclCompEvalObj + 0x7bb' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 12   0x1002c590: 'TclCompEvalObj + 0xf0' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 13   0x1005383a: 'TclObjInterpProc + 0x26a' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 14   0x1000d52b: 'TclEvalObjvInternal + 0x24b' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 15   0x1002cad7: 'TclCompEvalObj + 0x637' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 16   0x1002c590: 'TclCompEvalObj + 0xf0' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 17   0x1005383a: 'TclObjInterpProc + 0x26a' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 18   0x1000d52b: 'TclEvalObjvInternal + 0x24b' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 19   0x1002cad7: 'TclCompEvalObj + 0x637' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 20   0x1002c590: 'TclCompEvalObj + 0xf0' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 21   0x1005383a: 'TclObjInterpProc + 0x26a' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 22   0x1000d52b: 'TclEvalObjvInternal + 0x24b' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 23   0x1002cad7: 'TclCompEvalObj + 0x637' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 24   0x1002c590: 'TclCompEvalObj + 0xf0' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 25   0x1005383a: 'TclObjInterpProc + 0x26a' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 26   0x1000d52b: 'TclEvalObjvInternal + 0x24b' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 27   0x1002cad7: 'TclCompEvalObj + 0x637' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 28   0x1002c590: 'TclCompEvalObj + 0xf0' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 29   0x1002cc5b: 'TclCompEvalObj + 0x7bb' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 30   0x1002c590: 'TclCompEvalObj + 0xf0' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 31   0x1005383a: 'TclObjInterpProc + 0x26a' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 32   0x1000d52b: 'TclEvalObjvInternal + 0x24b' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 33   0x1000dce0: 'Tcl_EvalEx + 0x180' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 34   0x1000e328: 'Tcl_EvalObjEx + 0x228' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 35   0x10011ebc: 'Tcl_EvalObjCmd + 0x6c' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 36   0x1000d52b: 'TclEvalObjvInternal + 0x24b' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 37   0x1000dce0: 'Tcl_EvalEx + 0x180' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 38   0x1000e066: 'Tcl_Eval + 0x16' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 39   0x1000f31c: 'Tcl_GlobalEval + 0x1c' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 40   0x00871064: '<unknown (@0x871064)>'
+# 41   0x1003d955: 'Tcl_NotifyChannel + 0xc5' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 42   0x1006a8fb: 'TclpHasSockets + 0x7fb' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 43   0x1004b5b0: 'Tcl_ServiceEvent + 0x60' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 44   0x1004b821: 'Tcl_DoOneEvent + 0x111' in 'c:\modeltech_6.5d\win32\tcl84.dll'
+# 45   0x0090f33c: '<unknown (@0x90f33c)>'
+# 46   0x00697c09: '<unknown (@0x697c09)>'
+# 47   0x006111b4: '<unknown (@0x6111b4)>'
+# End of Stack Trace
+
+
+# Current time Tue Jan 18 23:31:21 2011
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.5d"
+# Version = "2009.11"
+# Date = "Nov 18 2009"
+# Platform = win32
+# 0    0x007f1fe4: '<unknown (@0x7f1fe4)>'
+# 1    0x007ef0a1: '<unknown (@0x7ef0a1)>'
+# 2    0x007f04aa: '<unknown (@0x7f04aa)>'
+# 3    0x007f04ee: '<unknown (@0x7f04ee)>'
+# 4    0x007f04da: '<unknown (@0x7f04da)>'
+# 5    0x0077bcfb: '<unknown (@0x77bcfb)>'
+# 6    0x00612611: '<unknown (@0x612611)>'
+# 7    0x00612825: '<unknown (@0x612825)>'
+# 8    0x00697d96: '<unknown (@0x697d96)>'
+# 9    0x00697c1d: '<unknown (@0x697c1d)>'
+# 10   0x006111b4: '<unknown (@0x6111b4)>'
+# End of Stack Trace
+
+
+# Current time Tue Jan 18 23:31:21 2011
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.5d"
+# Version = "2009.11"
+# Date = "Nov 18 2009"
+# Platform = win32
+# 0    0x007f1fe4: '<unknown (@0x7f1fe4)>'
+# 1    0x007ef0a1: '<unknown (@0x7ef0a1)>'
+# 2    0x007f04aa: '<unknown (@0x7f04aa)>'
+# 3    0x007f04ee: '<unknown (@0x7f04ee)>'
+# 4    0x007f04da: '<unknown (@0x7f04da)>'
+# 5    0x0077bcfb: '<unknown (@0x77bcfb)>'
+# 6    0x00612611: '<unknown (@0x612611)>'
+# 7    0x00612825: '<unknown (@0x612825)>'
+# 8    0x00697d96: '<unknown (@0x697d96)>'
+# 9    0x00697c1d: '<unknown (@0x697c1d)>'
+# 10   0x006111b4: '<unknown (@0x6111b4)>'
+# End of Stack Trace
+
+
+# Current time Tue Jan 18 23:31:21 2011
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "6.5d"
+# Version = "2009.11"
+# Date = "Nov 18 2009"
+# Platform = win32
+# 0    0x007f1fe4: '<unknown (@0x7f1fe4)>'
+# 1    0x007ef0a1: '<unknown (@0x7ef0a1)>'
+# 2    0x007f04aa: '<unknown (@0x7f04aa)>'
+# 3    0x007f04ee: '<unknown (@0x7f04ee)>'
+# 4    0x007f04da: '<unknown (@0x7f04da)>'
+# 5    0x0077bcfb: '<unknown (@0x77bcfb)>'
+# 6    0x00612611: '<unknown (@0x612611)>'
+# 7    0x00612825: '<unknown (@0x612825)>'
+# 8    0x00697d96: '<unknown (@0x697d96)>'
+# 9    0x00697c1d: '<unknown (@0x697c1d)>'
+# 10   0x006111b4: '<unknown (@0x6111b4)>'
+# End of Stack Trace
+
+

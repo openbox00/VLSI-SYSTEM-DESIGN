@@ -1,0 +1,64 @@
+ncverilog: 08.10-p002: (c) Copyright 1995-2008 Cadence Design Systems, Inc.
+TOOL:	ncverilog	08.10-p002: Started on Oct 27, 2010 at 15:36:56 CST
+ncverilog
+	mux5to1_select.v
+	tb_top_module.v
+	top_module.v
+	alu.v
+	imm_reg_select.v
+	register.v
+	mux2to1_select.v
+	sign_extend.v
+	+access+r
+file: mux5to1_select.v
+file: tb_top_module.v
+file: top_module.v
+file: alu.v
+	module worklib.alu:v
+		errors: 0, warnings: 0
+file: imm_reg_select.v
+file: register.v
+file: mux2to1_select.v
+file: sign_extend.v
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.alu:v <0x4d57e03a>
+			streams:   1, words:  1718
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+regfile register(read_data1,read_data2,read_address1,read_address2,write_address,write_data,clk,reset,read,write);
+                                                                                                    |
+ncelab: *W,CSINFI (./top_module.v,32|100): implicit wire has no fanin (tb_top_module.top.reset).
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  8       8
+		Registers:               27      27
+		Scalar wires:             9       -
+		Vectored wires:          21       -
+		Always blocks:            6       6
+		Initial blocks:           6       6
+		Cont. assignments:        7       7
+		Pseudo assignments:       4       4
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.tb_top_module:v
+Loading snapshot worklib.tb_top_module:v .................... Done
+ncsim> source /usr/cad/cadence/IUS/cur/tools/inca/files/ncsimrc
+ncsim> run
+                   0alu_overflow= x, read_address1 =  0, read_address2 =  0, write_address =  0,	alu_result =          x, immediate =       x, R1 =          x, R2 =          x, R3 =          x, write_data =          x
+                  50alu_overflow= x, read_address1 =  0, read_address2 =  0, write_address =  0,	alu_result =          x, immediate =       x, R1 =          x, R2 =          x, R3 =          x, write_data =          0
+                 100alu_overflow= x, read_address1 =  0, read_address2 =  0, write_address =  1,	alu_result =          x, immediate =       1, R1 =          x, R2 =          x, R3 =          x, write_data =          1
+                 150alu_overflow= x, read_address1 =  0, read_address2 =  0, write_address =  1,	alu_result =          x, immediate =       1, R1 =          1, R2 =          x, R3 =          x, write_data =          1
+                 200alu_overflow= x, read_address1 =  0, read_address2 =  0, write_address =  2,	alu_result =          x, immediate =      16, R1 =          1, R2 =          x, R3 =          x, write_data =         16
+                 250alu_overflow= x, read_address1 =  0, read_address2 =  0, write_address =  2,	alu_result =          x, immediate =      16, R1 =          1, R2 =         16, R3 =          x, write_data =         16
+                 300alu_overflow= x, read_address1 =  1, read_address2 =  2, write_address =  3,	alu_result =          x, immediate =      16, R1 =          1, R2 =         16, R3 =          x, write_data =          0
+                 350alu_overflow= x, read_address1 =  1, read_address2 =  2, write_address =  3,	alu_result =          x, immediate =      16, R1 =          1, R2 =         16, R3 =          x, write_data =         16
+                 400alu_overflow= 0, read_address1 =  1, read_address2 =  2, write_address =  3,	alu_result =         17, immediate =      16, R1 =          1, R2 =         16, R3 =          x, write_data =         16
+                 450alu_overflow= 0, read_address1 =  1, read_address2 =  2, write_address =  3,	alu_result =         17, immediate =      16, R1 =          1, R2 =         16, R3 =          x, write_data =          0
+                 500alu_overflow= 0, read_address1 =  1, read_address2 =  2, write_address =  3,	alu_result =         17, immediate =      16, R1 =          1, R2 =         16, R3 =          x, write_data =         17
+                 550alu_overflow= 0, read_address1 =  1, read_address2 =  2, write_address =  3,	alu_result =         17, immediate =      16, R1 =          1, R2 =         16, R3 =         17, write_data =         17
+Simulation complete via $finish(1) at time 1 US + 0
+./tb_top_module.v:62    #1000 $finish;
+ncsim> exit
+TOOL:	ncverilog	08.10-p002: Exiting on Oct 27, 2010 at 15:37:18 CST  (total: 00:00:22)

@@ -1,0 +1,15 @@
+C:/Users/100/Desktop/alu/ALU.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/alu/ALU.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/100/Desktop/alu/tb_ALU.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/alu/tb_alu.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module t_alu
+
+Top level modules:
+	t_alu
+
+} {} {}}

@@ -1,0 +1,16 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-XLMODE
+./INCA_libs/irun.sun4v.08.10.nc
+-RUNMODE
+ALU.v
+tb_alu.v
+-CDSLIB
+./INCA_libs/irun.sun4v.08.10.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/irun.sun4v.08.10.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-ALLOWUNBOUND

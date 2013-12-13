@@ -1,0 +1,33 @@
+ncverilog: 08.10-p002: (c) Copyright 1995-2008 Cadence Design Systems, Inc.
+TOOL:	ncverilog	08.10-p002: Started on Oct 14, 2010 at 14:01:21 CST
+ncverilog
+	rca.v
+	tb_rca.v
+	+access+r
+Recompiling... reason: file './tb_rca.v' is older than expected.
+	expected: Wed Oct 13 19:58:19 2010
+	actual:   Wed Oct 13 19:58:18 2010
+file: rca.v
+file: tb_rca.v
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                 14       4
+		Primitives:              26       2
+		Registers:                3       3
+		Scalar wires:             1       -
+		Expanded wires:           8       2
+		Initial blocks:           3       3
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.t_Add_4bitRCA:v
+Loading snapshot worklib.t_Add_4bitRCA:v .................... Done
+ncsim> source /usr/cad/cadence/IUS/cur/tools/inca/files/ncsimrc
+ncsim> run
+Simulation complete via $finish(1) at time 500 NS + 0
+./tb_rca.v:58   #500 $finish;
+ncsim> exit
+TOOL:	ncverilog	08.10-p002: Exiting on Oct 14, 2010 at 14:01:37 CST  (total: 00:00:16)

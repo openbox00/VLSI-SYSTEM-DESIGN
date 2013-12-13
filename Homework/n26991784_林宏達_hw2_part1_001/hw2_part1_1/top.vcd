@@ -1,0 +1,50 @@
+$date
+    Nov  7, 2010  14:55:10
+$end
+$version
+    TOOL:	ncsim	08.20-s024
+$end
+$timescale
+    1 ns
+$end
+
+$scope module cpu_tb $end
+
+$scope module cpu $end
+
+$scope module inst_mem $end
+$var parameter 32 !    IM_SIZE  $end
+$upscope $end
+
+
+$scope module ctrl $end
+$var parameter  3 "    S0  $end
+$var parameter  3 #    S1  $end
+$var parameter  3 $    S2  $end
+$var parameter  3 %    S3  $end
+$var parameter  3 &    S4  $end
+$upscope $end
+
+
+$scope module ext $end
+$var parameter  2 '    imm_5  $end
+$var parameter  2 (    imm_15  $end
+$var parameter  2 )    imm_20  $end
+$upscope $end
+
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+b10 )
+b1 (
+b0 '
+b100 &
+b11 %
+b10 $
+b1 #
+b0 "
+b100000 !
+$end

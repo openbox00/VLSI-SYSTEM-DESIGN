@@ -1,0 +1,163 @@
+ncverilog: 08.20-s024: (c) Copyright 1995-2010 Cadence Design Systems, Inc.
+TOOL:	ncverilog	08.20-s024: Started on Nov 07, 2010 at 14:54:25 CST
+ncverilog
+	-f run.f
+		alu.v
+		controller.v
+		data_mem.v
+		extension.v
+		inst_mem.v
+		reg_file.v
+		cpu.v
+		tb.v
+file: alu.v
+	module worklib.ALU:v
+		errors: 0, warnings: 0
+file: controller.v
+`define ADD 	5'b00000
+            	        |
+ncvlog: *W,MACRDF (controller.v,15|21): text macro 'ADD' redefined - replaced with new definition.
+`define SUB 	5'b00001
+            	        |
+ncvlog: *W,MACRDF (controller.v,16|21): text macro 'SUB' redefined - replaced with new definition.
+`define AND 	5'b00010
+            	        |
+ncvlog: *W,MACRDF (controller.v,17|21): text macro 'AND' redefined - replaced with new definition.
+`define OR 		5'b00100
+           		        |
+ncvlog: *W,MACRDF (controller.v,18|21): text macro 'OR' redefined - replaced with new definition.
+`define XOR 	5'b00011
+            	        |
+ncvlog: *W,MACRDF (controller.v,19|21): text macro 'XOR' redefined - replaced with new definition.
+`define SRLI 	5'b01001
+             	        |
+ncvlog: *W,MACRDF (controller.v,20|22): text macro 'SRLI' redefined - replaced with new definition.
+`define SLLI 	5'b01000
+             	        |
+ncvlog: *W,MACRDF (controller.v,21|22): text macro 'SLLI' redefined - replaced with new definition.
+`define ROTRI 	5'b01011
+              	        |
+ncvlog: *W,MACRDF (controller.v,22|23): text macro 'ROTRI' redefined - replaced with new definition.
+`define MOVI 	6'b100010
+             	         |
+ncvlog: *W,MACRDF (controller.v,31|23): text macro 'MOVI' redefined - replaced with new definition.
+`define LSW		6'b011100
+           		         |
+ncvlog: *W,MACRDF (controller.v,33|22): text macro 'LSW' redefined - replaced with new definition.
+	module worklib.CONTROLLER:v
+		errors: 0, warnings: 10
+file: data_mem.v
+	module worklib.DATA_MEM:v
+		errors: 0, warnings: 0
+file: extension.v
+	module worklib.EXTENSION:v
+		errors: 0, warnings: 0
+file: inst_mem.v
+	module worklib.INST_MEM:v
+		errors: 0, warnings: 0
+file: reg_file.v
+	module worklib.REGISTER_FILE:v
+		errors: 0, warnings: 0
+file: cpu.v
+	module worklib.CPU:v
+		errors: 0, warnings: 0
+file: tb.v
+	module worklib.cpu_tb:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .......
+	$readmemb("mins2.prog", cpu.inst_mem.inst);
+	                                        |
+ncelab: *W,MEMODR (./tb.v,31|41): $readmem default memory order incompatible with IEEE1364.
+............. Done
+	Generating native compiled code:
+		worklib.ALU:v <0x57cd565f>
+			streams:   3, words:  2345
+		worklib.CONTROLLER:v <0x634a5b45>
+			streams:   4, words:  8351
+		worklib.CPU:v <0x617a2e26>
+			streams:  11, words:  2553
+		worklib.DATA_MEM:v <0x0d5da2db>
+			streams:   4, words:  9133
+		worklib.EXTENSION:v <0x091a173b>
+			streams:   1, words:   467
+		worklib.INST_MEM:v <0x1165ea20>
+			streams:   2, words:   394
+		worklib.REGISTER_FILE:v <0x5bb51f07>
+			streams:   6, words:  2747
+		worklib.cpu_tb:v <0x34624707>
+			streams:   5, words:  2207
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		              Instances  Unique
+		Modules:              8       8
+		Registers:           35      35
+		Scalar wires:        11       -
+		Vectored wires:      23       -
+		Always blocks:       12      12
+		Initial blocks:       4       4
+		Cont. assignments:    4       5
+		Pseudo assignments:   3       3
+	Writing initial simulation snapshot: worklib.cpu_tb:v
+Loading snapshot worklib.cpu_tb:v .................... Done
+ncsim> source /usr/cad/cadence/IUS/cur/tools/inca/files/ncsimrc
+ncsim> run
+
+Warning!  some objects excluded from $dumpvars due to access restrictions, use +access+r on command line for access to all objects
+            File: ./tb.v, line = 35, pos = 8
+           Scope: cpu_tb
+            Time: 0 FS + 0
+
+R[          0]:	         7
+R[          1]:	         4
+R[          2]:	        28
+R[          3]:	        21
+R[          4]:	         0
+R[          5]:	         0
+R[          6]:	         0
+R[          7]:	         0
+R[          8]:	         0
+R[          9]:	         0
+R[         10]:	         0
+R[         11]:	         0
+R[         12]:	         0
+R[         13]:	         0
+R[         14]:	         0
+R[         15]:	         0
+R[         16]:	         0
+R[         17]:	         0
+R[         18]:	         0
+R[         19]:	         0
+R[         20]:	         0
+R[         21]:	         0
+R[         22]:	         0
+R[         23]:	         0
+R[         24]:	         0
+R[         25]:	         0
+R[         26]:	         0
+R[         27]:	         0
+R[         28]:	         0
+R[         29]:	         0
+R[         30]:	         0
+R[         31]:	         0
+Simulation stopped via $stop(1) at time 11 US + 0
+./tb.v:18 	$stop;
+ncsim> ls
+alu.v
+controller.v
+cpu.v
+data_mem.v
+extension.v
+INCA_libs
+inst_mem.v
+mins2.prog
+ncverilog.key
+ncverilog.log
+reg_file.v
+run.f
+tb.v
+top.vcd
+ncsim> quit
+TOOL:	ncverilog	08.20-s024: Exiting on Nov 07, 2010 at 14:54:44 CST  (total: 00:00:19)

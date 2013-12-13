@@ -1,0 +1,122 @@
+ncverilog: 08.10-p002: (c) Copyright 1995-2008 Cadence Design Systems, Inc.
+TOOL:	ncverilog	08.10-p002: Started on Oct 27, 2010 at 15:10:38 CST
+ncverilog
+	alu.v
+	mux5to1_select.v
+	register.v
+	buffer.v
+	sign_extend.v
+	controller.v
+	tb_top_controller_module.v
+	imm_reg_select.v
+	top_controller_module.v
+	mux2to1_select.v
+	+access+r
+file: alu.v
+	module worklib.alu:v
+		errors: 0, warnings: 0
+file: mux5to1_select.v
+	module worklib.mux5to1_select:v
+		errors: 0, warnings: 0
+file: register.v
+	module worklib.regfile:v
+		errors: 0, warnings: 0
+file: buffer.v
+	module worklib.buffer:v
+		errors: 0, warnings: 0
+file: sign_extend.v
+	module worklib.sign_extend:v
+		errors: 0, warnings: 0
+file: controller.v
+`define SRLI		5'b01001
+            		        |
+ncvlog: *W,MACRDF (controller.v,6|22): text macro 'SRLI' redefined - replaced with new definition.
+`define SLLI		5'b01000
+            		        |
+ncvlog: *W,MACRDF (controller.v,7|22): text macro 'SLLI' redefined - replaced with new definition.
+`define ROTRI		5'b01011
+             		        |
+ncvlog: *W,MACRDF (controller.v,8|23): text macro 'ROTRI' redefined - replaced with new definition.
+	module worklib.controller:v
+		errors: 0, warnings: 0
+file: tb_top_controller_module.v
+	module worklib.tb_top_module_controller:v
+		errors: 0, warnings: 0
+file: imm_reg_select.v
+	module worklib.imm_reg_select:v
+		errors: 0, warnings: 0
+file: top_controller_module.v
+	module worklib.top_module_controller:v
+		errors: 0, warnings: 0
+file: mux2to1_select.v
+	module worklib.mux2to1_select:v
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 3
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.alu:v <0x5f0906dc>
+			streams:   1, words:  1395
+		worklib.buffer:v <0x7b648881>
+			streams:   1, words:    38
+		worklib.controller:v <0x1e004806>
+			streams:   4, words:  1017
+		worklib.imm_reg_select:v <0x5339158c>
+			streams:   2, words:    92
+		worklib.mux2to1_select:v <0x5339158c>
+			streams:   2, words:    92
+		worklib.mux5to1_select:v <0x434f5360>
+			streams:   1, words:   250
+		worklib.regfile:v <0x640310fa>
+			streams:   6, words:  3198
+		worklib.sign_extend:v <0x690b55e2>
+			streams:   1, words:    47
+		worklib.tb_top_module_controller:v <0x0a6765bb>
+			streams:   8, words:  1978
+		worklib.top_module_controller:v <0x0f91619e>
+			streams:   1, words:   138
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                 10      10
+		Resolved nets:            1       1
+		Registers:               25      25
+		Scalar wires:             8       -
+		Vectored wires:          20       -
+		Always blocks:            9       9
+		Initial blocks:           6       6
+		Cont. assignments:        2       8
+		Pseudo assignments:       2       2
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.tb_top_module_controller:v
+Loading snapshot worklib.tb_top_module_controller:v .................... Done
+ncsim> source /usr/cad/cadence/IUS/cur/tools/inca/files/ncsimrc
+ncsim> run
+                   0alu_overflow= 0, ir =          0, reset = 1, R0 =          0, R1 =          0, R2 =          0, R3 =          0
+                 400alu_overflow= 0, ir = 1342177293, reset = 0, R0 =          0, R1 =          0, R2 =          0, R3 =          0
+                 750alu_overflow= 0, ir = 1342177293, reset = 0, R0 =         13, R1 =          0, R2 =          0, R3 =          0
+                 800alu_overflow= 0, ir = 1343258636, reset = 0, R0 =         13, R1 =          0, R2 =          0, R3 =          0
+                1150alu_overflow= 0, ir = 1343258636, reset = 0, R0 =         13, R1 =         12, R2 =          0, R3 =          0
+                1200alu_overflow= 0, ir = 1142947856, reset = 0, R0 =         13, R1 =         12, R2 =          0, R3 =          0
+                1550alu_overflow= 0, ir = 1142947856, reset = 0, R0 =         13, R1 =         12, R2 =         16, R3 =          0
+                1600alu_overflow= 0, ir = 1076888576, reset = 0, R0 =         13, R1 =         12, R2 =         16, R3 =          0
+                1950alu_overflow= 0, ir = 1076888576, reset = 0, R0 =         13, R1 =         12, R2 =         16, R3 =         25
+                2000alu_overflow= 0, ir = 1077937153, reset = 0, R0 =         13, R1 =         12, R2 =         16, R3 =         25
+                2400alu_overflow= 0, ir = 1079087106, reset = 0, R0 =         13, R1 =         12, R2 =         16, R3 =         25
+                2800alu_overflow= 0, ir = 1080135684, reset = 0, R0 =         13, R1 =         12, R2 =         16, R3 =         25
+                3200alu_overflow= 0, ir = 1081184259, reset = 0, R0 =         13, R1 =         12, R2 =         16, R3 =         25
+                3600alu_overflow= 0, ir = 1082134536, reset = 0, R0 =         13, R1 =         12, R2 =         16, R3 =         25
+                4000alu_overflow= 0, ir = 1083219979, reset = 0, R0 =         13, R1 =         12, R2 =         16, R3 =         25
+                4400alu_overflow= 0, ir = 1476395039, reset = 0, R0 =         13, R1 =         12, R2 =         16, R3 =         25
+                4750alu_overflow= 0, ir = 1476395039, reset = 0, R0 =         31, R1 =         12, R2 =         16, R3 =         25
+                4800alu_overflow= 0, ir = 1443921941, reset = 0, R0 =         31, R1 =         12, R2 =         16, R3 =         25
+                5150alu_overflow= 0, ir = 1443921941, reset = 0, R0 =         31, R1 =         25, R2 =         16, R3 =         25
+                5550alu_overflow= 0, ir = 1443921941, reset = 0, R0 =         31, R1 =         12, R2 =         16, R3 =         25
+                5950alu_overflow= 0, ir = 1443921941, reset = 0, R0 =         31, R1 =         25, R2 =         16, R3 =         25
+Simulation complete via $finish(1) at time 6 US + 0
+./tb_top_controller_module.v:57    #6000 $finish;
+ncsim> exit
+TOOL:	ncverilog	08.10-p002: Exiting on Oct 27, 2010 at 15:10:41 CST  (total: 00:00:03)

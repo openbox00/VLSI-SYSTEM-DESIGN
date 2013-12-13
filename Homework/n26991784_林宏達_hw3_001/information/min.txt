@@ -1,0 +1,46 @@
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -max_paths 1
+        -sort_by group
+Design : CPU
+Version: Z-2007.03-SP3
+Date   : Sat Dec 25 16:26:20 2010
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: fast   Library: fast
+Wire Load Model Mode: top
+
+  Startpoint: idex/data_rw_out_reg
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: exmem/data_rw_out_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (ideal)              0.00       5.00
+  idex/data_rw_out_reg/CK (DFFRHQX1)       0.00 #     5.00 r
+  idex/data_rw_out_reg/Q (DFFRHQX1)        0.12       5.12 f
+  idex/data_rw_out (IDEX)                  0.00       5.12 f
+  exmem/data_rw_in (EXMEM)                 0.00       5.12 f
+  exmem/data_rw_out_reg/D (DFFRHQX1)       0.00       5.12 f
+  data arrival time                                   5.12
+
+  clock clk (rise edge)                    5.00       5.00
+  clock network delay (ideal)              0.00       5.00
+  exmem/data_rw_out_reg/CK (DFFRHQX1)      0.00       5.00 r
+  library hold time                       -0.03       4.97
+  data required time                                  4.97
+  -----------------------------------------------------------
+  data required time                                  4.97
+  data arrival time                                  -5.12
+  -----------------------------------------------------------
+  slack (MET)                                         0.15
+
+

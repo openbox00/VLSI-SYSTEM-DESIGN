@@ -1,0 +1,99 @@
+C:/Users/100/Desktop/test/data_mem.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/data_mem.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module DATA_MEM
+
+Top level modules:
+	DATA_MEM
+
+} {} {}} C:/Users/100/Desktop/test/IDEX.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/IDEX.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module IDEX
+
+Top level modules:
+	IDEX
+
+} {} {}} C:/Users/100/Desktop/test/alu.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/alu.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/100/Desktop/test/Forwardingunit.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/Forwardingunit.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module Forward
+
+Top level modules:
+	Forward
+
+} {} {}} C:/Users/100/Desktop/test/IFID.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/IFID.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module IFID
+
+Top level modules:
+	IFID
+
+} {} {}} C:/Users/100/Desktop/test/EXMEM.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/EXMEM.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module EXMEM
+
+Top level modules:
+	EXMEM
+
+} {} {}} C:/Users/100/Desktop/test/inst_mem.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/inst_mem.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module INST_MEM
+
+Top level modules:
+	INST_MEM
+
+} {} {}} C:/Users/100/Desktop/test/extension.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/extension.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module EXTENSION
+
+Top level modules:
+	EXTENSION
+
+} {} {}} C:/Users/100/Desktop/test/CPU.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/CPU.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} C:/Users/100/Desktop/test/MEMWB.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/MEMWB.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module MEMWB
+
+Top level modules:
+	MEMWB
+
+} {} {}} C:/Users/100/Desktop/test/controller.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/controller.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module CONTROLLER
+
+Top level modules:
+	CONTROLLER
+
+} {} {}} C:/Users/100/Desktop/test/hazarddectection.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/hazarddectection.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module detection
+
+Top level modules:
+	detection
+
+} {} {}} C:/Users/100/Desktop/test/reg_file.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/reg_file.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module REGISTER_FILE
+
+Top level modules:
+	REGISTER_FILE
+
+} {} {}} C:/Users/100/Desktop/test/tb.v {1 {vlog -work work -vopt -nocovercells C:/Users/100/Desktop/test/tb.v
+Model Technology ModelSim SE vlog 6.5d Compiler 2009.11 Nov 18 2009
+-- Compiling module cpu_tb
+
+Top level modules:
+	cpu_tb
+
+} {} {}}

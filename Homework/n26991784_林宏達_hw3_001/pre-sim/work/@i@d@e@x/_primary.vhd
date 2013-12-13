@@ -1,0 +1,40 @@
+library verilog;
+use verilog.vl_types.all;
+entity IDEX is
+    port(
+        ls_w_mode_out   : out    vl_logic;
+        funct_out       : out    vl_logic_vector(3 downto 0);
+        sel_in2_out     : out    vl_logic;
+        ena_data_out    : out    vl_logic;
+        data_rw_out     : out    vl_logic;
+        sel_wb_out      : out    vl_logic;
+        reg_rw_out      : out    vl_logic;
+        read_data1_out  : out    vl_logic_vector(31 downto 0);
+        read_data2_out  : out    vl_logic_vector(31 downto 0);
+        read_data3_out  : out    vl_logic_vector(31 downto 0);
+        ext_out         : out    vl_logic_vector(31 downto 0);
+        addr_dst_out    : out    vl_logic_vector(4 downto 0);
+        ls_w_mode_in    : in     vl_logic;
+        funct_in        : in     vl_logic_vector(3 downto 0);
+        sel_in2_in      : in     vl_logic;
+        ena_data_in     : in     vl_logic;
+        data_rw_in      : in     vl_logic;
+        sel_wb_in       : in     vl_logic;
+        reg_rw_in       : in     vl_logic;
+        read_data1_in   : in     vl_logic_vector(31 downto 0);
+        read_data2_in   : in     vl_logic_vector(31 downto 0);
+        addr_dst_in     : in     vl_logic_vector(4 downto 0);
+        read_data3_in   : in     vl_logic_vector(31 downto 0);
+        ext_in          : in     vl_logic_vector(31 downto 0);
+        clk             : in     vl_logic;
+        rst             : in     vl_logic;
+        addr1_out       : out    vl_logic_vector(4 downto 0);
+        addr1_in        : in     vl_logic_vector(4 downto 0);
+        addr2_out       : out    vl_logic_vector(4 downto 0);
+        addr2_in        : in     vl_logic_vector(4 downto 0);
+        inst_out        : out    vl_logic_vector(31 downto 0);
+        inst_in         : in     vl_logic_vector(31 downto 0);
+        sel_alu_out     : out    vl_logic;
+        sel_alu_in      : in     vl_logic
+    );
+end IDEX;
