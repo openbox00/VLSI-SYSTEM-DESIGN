@@ -1,3 +1,0 @@
-Command Line: /usr/cad/spring_soft/verdi/cur/platform/SOL7/bin/vfast -silent -del . -o /home/user1/vsd10f/vsd10f23/n26991784/RCA/rca.vcd.fsdb -ft verilog /home/user1/vsd10f/vsd10f23/n26991784/RCA/rca.vcd
-uname(SunOS vlsicad3 5.10 Generic_139555-08 sun4u)
-au time 1 0.7037 0.16306 delta 7265480 2367488 total 7274496 2392064

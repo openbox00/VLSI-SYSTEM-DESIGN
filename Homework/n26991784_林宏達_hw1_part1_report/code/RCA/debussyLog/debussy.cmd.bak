@@ -1,6 +1,0 @@
-srcSourceCodeView
-srcResizeWindow 1 27 1270 945
-debImport "/home/user1/vsd10f/vsd10f23/n26991784/RCA/rca.v" \
-          "/home/user1/vsd10f/vsd10f23/n26991784/RCA/tb_rca.v" -path \
-          {/home/user1/vsd10f/vsd10f23/n26991784/RCA}
-debExit
